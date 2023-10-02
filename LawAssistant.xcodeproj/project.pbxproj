@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		890A49E82A2A69970017DB33 /* NumberPhoneMaskedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890A49E72A2A69970017DB33 /* NumberPhoneMaskedTextField.swift */; };
+		890A49EA2A2A6A450017DB33 /* FilterNumberPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890A49E92A2A6A450017DB33 /* FilterNumberPhone.swift */; };
+		890A49EC2A2A7CB20017DB33 /* VerificationCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890A49EB2A2A7CB20017DB33 /* VerificationCodeView.swift */; };
+		890A49EE2A2A80EE0017DB33 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890A49ED2A2A80EE0017DB33 /* LoginViewModel.swift */; };
+		890A49F22A2A8DCF0017DB33 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 890A49F12A2A8DCF0017DB33 /* GoogleService-Info.plist */; };
+		890A49F62A2A8F6D0017DB33 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 890A49F52A2A8F6D0017DB33 /* FirebaseAuth */; };
+		896DFBDA2AAB9189006C5F16 /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = 896DFBD92AAB9189006C5F16 /* iPhoneNumberField */; };
+		896DFBDE2AABA592006C5F16 /* VerificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896DFBDD2AABA592006C5F16 /* VerificationViewModel.swift */; };
+		89E9F08029F08332008277B8 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E9F07F29F08332008277B8 /* APIClient.swift */; };
+		89F648942AB0E65700FA10B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F648932AB0E65700FA10B2 /* ContentView.swift */; };
+		CB1E17FF291AC5120034910A /* LawAssistantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1E17FE291AC5120034910A /* LawAssistantApp.swift */; };
+		CB1E1801291AC5120034910A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1E1800291AC5120034910A /* LoginView.swift */; };
+		CB1E1803291AC5140034910A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB1E1802291AC5140034910A /* Assets.xcassets */; };
+		CB1E1806291AC5140034910A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB1E1805291AC5140034910A /* Preview Assets.xcassets */; };
+		CBC1D012291D9A1600099A42 /* LawCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC1D011291D9A1600099A42 /* LawCase.swift */; };
+		CBC4A848291FB22A000BA558 /* DetailCaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC4A847291FB22A000BA558 /* DetailCaseView.swift */; };
+		CBC4A84A291FBE54000BA558 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC4A849291FBE54000BA558 /* Document.swift */; };
+		CBC4A84C29202E9B000BA558 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC4A84B29202E9B000BA558 /* CircularProgressView.swift */; };
+		CBC71BFD29203816005D16E6 /* DocumentItemState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC71BFC29203816005D16E6 /* DocumentItemState.swift */; };
+		CBC71BFF2920DE17005D16E6 /* Meeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC71BFE2920DE17005D16E6 /* Meeting.swift */; };
+		CBC71C012921092B005D16E6 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC71C002921092B005D16E6 /* Date+Extension.swift */; };
+		CBF726E5291D2F6E00591BC6 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF726E4291D2F6E00591BC6 /* Color+Extension.swift */; };
+		CBF726F2291D8EBE00591BC6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF726F1291D8EBE00591BC6 /* MainView.swift */; };
+		CBF726F4291D8F5B00591BC6 /* CaseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF726F3291D8F5B00591BC6 /* CaseListView.swift */; };
+		CBF726F8291D910F00591BC6 /* MeetingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF726F7291D910F00591BC6 /* MeetingsView.swift */; };
+		CBF726FB291D913F00591BC6 /* ServicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF726FA291D913F00591BC6 /* ServicesView.swift */; };
+		CBF726FD291D915400591BC6 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF726FC291D915400591BC6 /* ChatView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		890A49E72A2A69970017DB33 /* NumberPhoneMaskedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPhoneMaskedTextField.swift; sourceTree = "<group>"; };
+		890A49E92A2A6A450017DB33 /* FilterNumberPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterNumberPhone.swift; sourceTree = "<group>"; };
+		890A49EB2A2A7CB20017DB33 /* VerificationCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationCodeView.swift; sourceTree = "<group>"; };
+		890A49ED2A2A80EE0017DB33 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		890A49F12A2A8DCF0017DB33 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		890A49F32A2A8E9D0017DB33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		896DFBDD2AABA592006C5F16 /* VerificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationViewModel.swift; sourceTree = "<group>"; };
+		89E9F07F29F08332008277B8 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		89F648932AB0E65700FA10B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CB1E17FB291AC5120034910A /* LawAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LawAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB1E17FE291AC5120034910A /* LawAssistantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LawAssistantApp.swift; sourceTree = "<group>"; };
+		CB1E1800291AC5120034910A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CB1E1802291AC5140034910A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB1E1805291AC5140034910A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CBC1D011291D9A1600099A42 /* LawCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LawCase.swift; sourceTree = "<group>"; };
+		CBC4A847291FB22A000BA558 /* DetailCaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCaseView.swift; sourceTree = "<group>"; };
+		CBC4A849291FBE54000BA558 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		CBC4A84B29202E9B000BA558 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		CBC71BFC29203816005D16E6 /* DocumentItemState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentItemState.swift; sourceTree = "<group>"; };
+		CBC71BFE2920DE17005D16E6 /* Meeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meeting.swift; sourceTree = "<group>"; };
+		CBC71C002921092B005D16E6 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		CBF726E4291D2F6E00591BC6 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		CBF726F1291D8EBE00591BC6 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		CBF726F3291D8F5B00591BC6 /* CaseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseListView.swift; sourceTree = "<group>"; };
+		CBF726F7291D910F00591BC6 /* MeetingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingsView.swift; sourceTree = "<group>"; };
+		CBF726FA291D913F00591BC6 /* ServicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesView.swift; sourceTree = "<group>"; };
+		CBF726FC291D915400591BC6 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB1E17F8291AC5120034910A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890A49F62A2A8F6D0017DB33 /* FirebaseAuth in Frameworks */,
+				896DFBDA2AAB9189006C5F16 /* iPhoneNumberField in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		894FF9772A9930B400057C9E /* Helpes */ = {
+			isa = PBXGroup;
+			children = (
+				CBC1D011291D9A1600099A42 /* LawCase.swift */,
+				89F648932AB0E65700FA10B2 /* ContentView.swift */,
+				CBF726F1291D8EBE00591BC6 /* MainView.swift */,
+				890A49E72A2A69970017DB33 /* NumberPhoneMaskedTextField.swift */,
+				890A49E92A2A6A450017DB33 /* FilterNumberPhone.swift */,
+			);
+			path = Helpes;
+			sourceTree = "<group>";
+		};
+		896DFBDB2AAB9EE3006C5F16 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CB1E1800291AC5120034910A /* LoginView.swift */,
+				890A49ED2A2A80EE0017DB33 /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		896DFBDC2AAB9EF0006C5F16 /* Unused */ = {
+			isa = PBXGroup;
+			children = (
+				890A49EB2A2A7CB20017DB33 /* VerificationCodeView.swift */,
+				896DFBDD2AABA592006C5F16 /* VerificationViewModel.swift */,
+			);
+			path = Unused;
+			sourceTree = "<group>";
+		};
+		CB1E17F2291AC5120034910A = {
+			isa = PBXGroup;
+			children = (
+				890A49F12A2A8DCF0017DB33 /* GoogleService-Info.plist */,
+				CB1E17FD291AC5120034910A /* LawAssistant */,
+				CB1E17FC291AC5120034910A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB1E17FC291AC5120034910A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB1E17FB291AC5120034910A /* LawAssistant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB1E17FD291AC5120034910A /* LawAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				890A49F32A2A8E9D0017DB33 /* Info.plist */,
+				894FF9772A9930B400057C9E /* Helpes */,
+				CBF726ED291D8D8300591BC6 /* App */,
+				CBF726F5291D90E000591BC6 /* CaseList */,
+				CBF726F6291D90F800591BC6 /* Meetings */,
+				CBF726F9291D911C00591BC6 /* Services */,
+				CBF726FE291D916200591BC6 /* Chat */,
+				CBF726EE291D8D8D00591BC6 /* LoginScene */,
+				CB1E1802291AC5140034910A /* Assets.xcassets */,
+				CB1E1804291AC5140034910A /* Preview Content */,
+			);
+			path = LawAssistant;
+			sourceTree = "<group>";
+		};
+		CB1E1804291AC5140034910A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CB1E1805291AC5140034910A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CBC4A846291FB203000BA558 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				89E9F07F29F08332008277B8 /* APIClient.swift */,
+				CBC4A849291FBE54000BA558 /* Document.swift */,
+				CBC71BFC29203816005D16E6 /* DocumentItemState.swift */,
+				CBC71BFE2920DE17005D16E6 /* Meeting.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CBF726E6291D370600591BC6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CBF726E4291D2F6E00591BC6 /* Color+Extension.swift */,
+				CBC71C002921092B005D16E6 /* Date+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CBF726ED291D8D8300591BC6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CBC4A846291FB203000BA558 /* Models */,
+				CBF726E6291D370600591BC6 /* Extensions */,
+				CB1E17FE291AC5120034910A /* LawAssistantApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CBF726EE291D8D8D00591BC6 /* LoginScene */ = {
+			isa = PBXGroup;
+			children = (
+				896DFBDB2AAB9EE3006C5F16 /* Login */,
+				896DFBDC2AAB9EF0006C5F16 /* Unused */,
+			);
+			path = LoginScene;
+			sourceTree = "<group>";
+		};
+		CBF726F5291D90E000591BC6 /* CaseList */ = {
+			isa = PBXGroup;
+			children = (
+				CBF726F3291D8F5B00591BC6 /* CaseListView.swift */,
+				CBC4A84B29202E9B000BA558 /* CircularProgressView.swift */,
+				CBC4A847291FB22A000BA558 /* DetailCaseView.swift */,
+			);
+			path = CaseList;
+			sourceTree = "<group>";
+		};
+		CBF726F6291D90F800591BC6 /* Meetings */ = {
+			isa = PBXGroup;
+			children = (
+				CBF726F7291D910F00591BC6 /* MeetingsView.swift */,
+			);
+			path = Meetings;
+			sourceTree = "<group>";
+		};
+		CBF726F9291D911C00591BC6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CBF726FA291D913F00591BC6 /* ServicesView.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CBF726FE291D916200591BC6 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				CBF726FC291D915400591BC6 /* ChatView.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB1E17FA291AC5120034910A /* LawAssistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB1E1809291AC5140034910A /* Build configuration list for PBXNativeTarget "LawAssistant" */;
+			buildPhases = (
+				CB1E17F7291AC5120034910A /* Sources */,
+				CB1E17F8291AC5120034910A /* Frameworks */,
+				CB1E17F9291AC5120034910A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LawAssistant;
+			packageProductDependencies = (
+				890A49F52A2A8F6D0017DB33 /* FirebaseAuth */,
+				896DFBD92AAB9189006C5F16 /* iPhoneNumberField */,
+			);
+			productName = LawAssistant;
+			productReference = CB1E17FB291AC5120034910A /* LawAssistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB1E17F3291AC5120034910A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					CB1E17FA291AC5120034910A = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = CB1E17F6291AC5120034910A /* Build configuration list for PBXProject "LawAssistant" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB1E17F2291AC5120034910A;
+			packageReferences = (
+				890A49F42A2A8F6D0017DB33 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				896DFBD82AAB9189006C5F16 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */,
+			);
+			productRefGroup = CB1E17FC291AC5120034910A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB1E17FA291AC5120034910A /* LawAssistant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB1E17F9291AC5120034910A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1E1806291AC5140034910A /* Preview Assets.xcassets in Resources */,
+				CB1E1803291AC5140034910A /* Assets.xcassets in Resources */,
+				890A49F22A2A8DCF0017DB33 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB1E17F7291AC5120034910A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890A49EC2A2A7CB20017DB33 /* VerificationCodeView.swift in Sources */,
+				CBC4A848291FB22A000BA558 /* DetailCaseView.swift in Sources */,
+				890A49EA2A2A6A450017DB33 /* FilterNumberPhone.swift in Sources */,
+				CBC71BFF2920DE17005D16E6 /* Meeting.swift in Sources */,
+				CBC71BFD29203816005D16E6 /* DocumentItemState.swift in Sources */,
+				CBF726FB291D913F00591BC6 /* ServicesView.swift in Sources */,
+				CBF726F4291D8F5B00591BC6 /* CaseListView.swift in Sources */,
+				CB1E1801291AC5120034910A /* LoginView.swift in Sources */,
+				89E9F08029F08332008277B8 /* APIClient.swift in Sources */,
+				CBC4A84C29202E9B000BA558 /* CircularProgressView.swift in Sources */,
+				CBF726F2291D8EBE00591BC6 /* MainView.swift in Sources */,
+				CBF726FD291D915400591BC6 /* ChatView.swift in Sources */,
+				89F648942AB0E65700FA10B2 /* ContentView.swift in Sources */,
+				CB1E17FF291AC5120034910A /* LawAssistantApp.swift in Sources */,
+				890A49EE2A2A80EE0017DB33 /* LoginViewModel.swift in Sources */,
+				890A49E82A2A69970017DB33 /* NumberPhoneMaskedTextField.swift in Sources */,
+				CBF726F8291D910F00591BC6 /* MeetingsView.swift in Sources */,
+				896DFBDE2AABA592006C5F16 /* VerificationViewModel.swift in Sources */,
+				CBC1D012291D9A1600099A42 /* LawCase.swift in Sources */,
+				CBF726E5291D2F6E00591BC6 /* Color+Extension.swift in Sources */,
+				CBC4A84A291FBE54000BA558 /* Document.swift in Sources */,
+				CBC71C012921092B005D16E6 /* Date+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CB1E1807291AC5140034910A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB1E1808291AC5140034910A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB1E180A291AC5140034910A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LawAssistant/Preview Content\"";
+				DEVELOPMENT_TEAM = T7YWVGS7V5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LawAssistant/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gellert.LawAssistant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB1E180B291AC5140034910A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LawAssistant/Preview Content\"";
+				DEVELOPMENT_TEAM = T7YWVGS7V5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LawAssistant/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gellert.LawAssistant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB1E17F6291AC5120034910A /* Build configuration list for PBXProject "LawAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB1E1807291AC5140034910A /* Debug */,
+				CB1E1808291AC5140034910A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB1E1809291AC5140034910A /* Build configuration list for PBXNativeTarget "LawAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB1E180A291AC5140034910A /* Debug */,
+				CB1E180B291AC5140034910A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		890A49F42A2A8F6D0017DB33 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		896DFBD82AAB9189006C5F16 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MojtabaHs/iPhoneNumberField.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.10.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		890A49F52A2A8F6D0017DB33 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 890A49F42A2A8F6D0017DB33 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		896DFBD92AAB9189006C5F16 /* iPhoneNumberField */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 896DFBD82AAB9189006C5F16 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */;
+			productName = iPhoneNumberField;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CB1E17F3291AC5120034910A /* Project object */;
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>361539298193-51hbk99fong91cc4jtt581nb3oh23a96.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.361539298193-51hbk99fong91cc4jtt581nb3oh23a96</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDeJVS4OHojj9-9N-Qk9TNnVITj158HLoU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>361539298193</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.gellert.LawAssistant</string>
+	<key>PROJECT_ID</key>
+	<string>law-assistant-f0275</string>
+	<key>STORAGE_BUCKET</key>
+	<string>law-assistant-f0275.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:361539298193:ios:4fa8ad06af0f972293f030</string>
+</dict>
+</plist>
